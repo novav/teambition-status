@@ -149,7 +149,7 @@ python scripts/analyze_teambition.py
 
 ## 许可证
 
-本技能仅供内部使用，请勿外传。
+本项目采用 MIT License，详见 `LICENSE`。
 
 ---
 
