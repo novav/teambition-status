@@ -1,0 +1,37 @@
+{
+  "teambition": {
+    "project_url": "https://www.teambition.com/project/your-project-id",
+    "default_view": "看板视图",
+    "monitored_categories": [
+      "待处理",
+      "开发中",
+      "已完成"
+    ],
+    "team_members": {
+      "priority_members": [],
+      "exclude_members": []
+    },
+    "alerts": {
+      "deadline_warning_days": 3,
+      "overload_threshold": 10,
+      "stagnation_days": 7
+    },
+    "reporting": {
+      "daily_report": true,
+      "weekly_report": true,
+      "include_details": false,
+      "output_format": "markdown"
+    }
+  },
+  "browser": {
+    "profile": "openclaw",
+    "timeout_ms": 30000,
+    "retry_attempts": 3
+  },
+  "analysis": {
+    "enable_risk_detection": true,
+    "enable_team_analysis": true,
+    "enable_trend_analysis": false,
+    "historical_data_days": 30
+  }
+}
